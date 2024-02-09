@@ -40,6 +40,6 @@ additional_prompts = [
 
 user_input = input("Enter a topic or keywords: ")
 topic = process_user_input(user_input)
-prompt = np.random.choice(additional_prompts) + f" A {topic} stands alone in the meadow,"
+prompt = np.random.choice(additional_prompts) + f"{topic}"
 generated_poem = generate_poem(model, tokenizer, prompt)
 print(generated_poem)
