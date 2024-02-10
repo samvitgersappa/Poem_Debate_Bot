@@ -1,7 +1,10 @@
 # Poem_Debate_Bot
 This project contains two bots: a poem generator and a debate bot. The poem generator generates poems based on user input, while the debate bot engages in debates on various topics. The bots are made available on a tkinter based gui.
 
+## Societal Relevance
+
 *The debate bot can help people improve their wordings, vocabulary and also introduce them to new perspectives related to the topic.*
+
 *The poem generator is an attempt to help aspiring poets form phrases and generate topics that they can expand on*
 
 ## **The User Interface of the Debate Bot**
