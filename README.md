@@ -9,6 +9,12 @@ This project contains two bots: a poem generator and a debate bot. The poem gene
 | 20     | 0.66257214  |     **0.2639493** |
 | 40     | 0.5762951  |     **0.3940904** |
 
+## **How to use the poem bot**
+
+**Step 1** : Run the poem_training_pytorch.ipynb notebook and save the **model_checkpoint.pth** file.
+
+**Step 2** : Move the **model_checkpoints.pth** file to a seperate folder. Also put the poem_bot.py in the same folder and run it.
+
 ## Societal Relevance
 
 *The debate bot can help people improve their wordings, vocabulary and also introduce them to new perspectives related to the topic.*
