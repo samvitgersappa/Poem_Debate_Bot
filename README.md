@@ -20,6 +20,8 @@ This project contains two bots: a poem generator and a debate bot. The poem gene
 
 ![2](https://github.com/samvitgersappa/Poem_Debate_Bot/assets/124512060/001b9dcd-9def-44bd-a21d-a1ddaf25c67f)
 
+*We used the pytorch version 1.13 as it was compatible with IPEX*
+
 
 ## Societal Relevance
 
