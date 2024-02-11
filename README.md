@@ -1,5 +1,13 @@
 # Poem_Debate_Bot
-This project contains two bots: a poem generator and a debate bot. The poem generator generates poems based on user input, while the debate bot engages in debates on various topics. The bots are made available on a tkinter based gui.
+
+### Poem Generator
+
+This project defines a GUI application using Tkinter for generating poems based on user-provided topics or keywords. It imports necessary libraries including tkinter, scrolledtext, and components from the transformers library such as GPT2Tokenizer and GPT2LMHeadModel. The app prompts the user to enter a topic, then generates a poem incorporating that topic using a pre-trained GPT-2 language model. The model is loaded, and upon clicking the "Generate Poem" button, it constructs a prompt using a random starter phrase from additional_prompts and the user's input topic. The generated poem is displayed in a scrollable text box. The poem generation involves setting parameters for temperature, top-k sampling, top-p sampling, and repetition penalty to control the creativity and coherence of the generated text.
+
+### Debate bot
+
+
+This code creates a Tkinter-based GUI application for a debate bot. Users input a debate motion, their stance ("for" or "against"), and their argument. Upon submission, the app generates responses from a GPT-2 language model based on the provided arguments. The responses are displayed in a scrollable text box. The app includes functionality to exit by typing 'exit' in either the motion or stance entry. The preprocess_prompt method formats the prompt with the motion and stance, while generate_response utilizes the GPT-2 model to generate responses. The app ensures response uniqueness by checking against a set of previous responses.
 
 ## Training 
 The poem bot was trained on a file containing a 100000 line poem exposing it to most english words.
