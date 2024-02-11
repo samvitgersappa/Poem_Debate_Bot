@@ -1,6 +1,14 @@
 # Poem_Debate_Bot
 This project contains two bots: a poem generator and a debate bot. The poem generator generates poems based on user input, while the debate bot engages in debates on various topics. The bots are made available on a tkinter based gui.
 
+## Comparison with/without IPEX (Intel Extension for pytorch)
+
+| No of Epochs       | Time Taken for training without IPEX     | Time Taken for training with IPEX     |
+|--------------|-----------|------------|
+| 10 | 0.408987      |    **0.1532082** |
+| 20     | 0.66257214  |     **0.2639493** |
+| 40     | 0.5762951  |     **0.3940904** |
+
 ## Societal Relevance
 
 *The debate bot can help people improve their wordings, vocabulary and also introduce them to new perspectives related to the topic.*
