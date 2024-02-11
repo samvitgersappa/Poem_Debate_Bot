@@ -1,6 +1,17 @@
 # Poem_Debate_Bot
 This project contains two bots: a poem generator and a debate bot. The poem generator generates poems based on user input, while the debate bot engages in debates on various topics. The bots are made available on a tkinter based gui.
 
+## Training 
+The poem bot was trained on a file containing a 100000 line poem exposing it to most english words.
+
+## File Contents
+
+1) **Debate_bot_gui** - Run the code directly to interact with the debate bot.
+2) **IPEX_pytorch_comparisons.ipynb** - Contains the code that we ran for comparing the training with/without IPEX
+3) **Poem_training_pytorch.ipynb** - Trained the pytorch model
+4) **poem.txt** - Poem dataset
+5) **Poem_bot.py** - Run this code along with the model in the same folser to interact with the poem bot.
+
 ## Comparison with/without IPEX (Intel Extension for pytorch)
 
 | No of Epochs       | Time Taken for training without IPEX     | Time Taken for training with IPEX     |
