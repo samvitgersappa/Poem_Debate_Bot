@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import scrolledtext
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
 import numpy as np
+import torch
 
 class PoemGeneratorApp:
     def __init__(self, master):
@@ -10,6 +11,10 @@ class PoemGeneratorApp:
 
         self.tokenizer = GPT2Tokenizer.from_pretrained("gpt2", do_sample=True)
         self.model = GPT2LMHeadModel.from_pretrained("gpt2", do_sample=True)
+
+        # Load the trained model
+        self.model.load_state_dict(torch.load('model_checkpoint.pth'))
+        self.model.eval()
 
         self.label = tk.Label(master, text="Enter a topic or keywords:")
         self.label.pack()
