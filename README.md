@@ -9,9 +9,6 @@ This project defines a GUI application using Tkinter for generating poems based 
 
 This code creates a Tkinter-based GUI application for a debate bot. Users input a debate motion, their stance ("for" or "against"), and their argument. Upon submission, the app generates responses from a GPT-2 language model based on the provided arguments. The responses are displayed in a scrollable text box. The app includes functionality to exit by typing 'exit' in either the motion or stance entry. The preprocess_prompt method formats the prompt with the motion and stance, while generate_response utilizes the GPT-2 model to generate responses. The app ensures response uniqueness by checking against a set of previous responses.
 
-## Training 
-The poem bot was trained on a file containing a 100000 line poem exposing it to most english words.
-
 ## File Contents
 
 1) **Debate_bot_gui** - Run the code directly to interact with the debate bot.
