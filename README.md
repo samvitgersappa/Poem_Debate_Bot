@@ -12,7 +12,8 @@ This project contains two bots: a poem generator and a debate bot. The poem gene
 ## **How to use the poem bot**
 
 **Step 1** : Run the poem_training_pytorch.ipynb notebook and save the **model_checkpoint.pth** file.
-![1](https://github.com/samvitgersappa/Poem_Debate_Bot/assets/124512060/ce3c135a-2c3e-4e4d-b5a4-d803898dd21e)
+![Screenshot 2024-02-11 100442](https://github.com/samvitgersappa/Poem_Debate_Bot/assets/124512060/acba02f7-5def-4f15-9948-a0374f29c786)
+
 
 
 
